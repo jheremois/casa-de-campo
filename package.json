@@ -4,8 +4,7 @@
   "description": "pagina Web de casa de campo",
   "main": "index.js",
   "scripts": {
-    "start": "node code/index.js",
-    "test": "nodemon code/index.js"
+    "start": "node code/index.js"
   },
   "author": "@jheremois",
   "license": "ISC",
