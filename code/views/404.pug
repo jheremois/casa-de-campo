@@ -1,0 +1,9 @@
+extends home
+
+block content
+    body(class='bg-danger')
+    .error(class='mt-5 card-body bg-danger text-white')
+        h1(class='d-flex justify-content-center card-body') Error 404
+        h2(class='d-flex justify-content-center card-body')= `Url "${url}" not found`
+
+block foot

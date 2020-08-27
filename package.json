@@ -1,0 +1,17 @@
+{
+  "name": "casa_de_campo",
+  "version": "0.0.1",
+  "description": "pagina Web de casa de campo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node code/index.js",
+    "test": "nodemon code/index.js"
+  },
+  "author": "@jheremois",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {}
+}

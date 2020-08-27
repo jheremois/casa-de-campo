@@ -1,0 +1,51 @@
+extends home
+block routes 
+    h4(class="nav-item") 
+        a(class="nav-link" href="/")  Home
+    h4(class="nav-item") 
+        a(class="nav-link" href="/villas")  Villas
+    h4(class="nav-item") 
+        a(class="nav-link active" href="/hotel")  Hotel
+block content
+    section(class='card-body')
+        .villas
+            hr
+            div(class='card-body text-center')
+                h2#titles Hotel
+                <p> Enjoy the complete luxury experience in the Caribbean at Casa de Campo Resort & Villas from your own room at our 5 star hotel. Recognized as the best hotel in all of Latin America. The hotel has more than 3 km of explorable areas, a large swimming pool for all guests and a private jacuzzi, immediate attention for any type of service requested, 5 restaurants open 24 hours, a live show every night and a recreational area for children.</p>
+            hr 
+            <div> 
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mb-4">
+                        <div class="border card bg-light">
+                            <img src="icons/coll (8).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Family pack</h4>
+                                .pack(class='card-body')    
+                                    h6 Includes:
+                                    ul
+                                        li Suit room
+                                        li Free food
+                                        li Golf cart (3)
+                                        li Full access pass
+                                <button class="btn btn-info">Learn more</button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="border card bg-light">
+                            <img src="icons/coll (7).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Standard pack</h4>
+                                .pack(class='card-body')    
+                                    h6 Includes:
+                                    ul
+                                        li Standard room
+                                        li Free food
+                                        li Golf cart (1)
+                                        li Standard access pass
+                                <button href="/hotel" class="btn btn-info">Learn more</button>
+                        </div>
+                        </div>
+                    </div>
+            </div>  
